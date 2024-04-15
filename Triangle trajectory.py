@@ -9,9 +9,8 @@ time.sleep(3)
 
 print '0. taking off till 10m'
 drone.take_off(10.0)
-print 'taking down 5 m'
 
-print ' move in a triangular trajectory of side length 10m at a height of 5m'
+print ' move in a triangular trajectory of side length 10m at a height of 10m'
 
 print ' 1. moving from Point A to B of triangle ABC'
 # h^2=p^2+b^2, here square root of sum of square of c=10
