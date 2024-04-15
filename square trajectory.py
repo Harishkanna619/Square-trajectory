@@ -14,7 +14,7 @@ print 'Current position - Point A of square ABCD'
 print ' move in a square trajectory of side length 6.5m at a height of 5m'
 
 print ' 2. moving to Point B of square ABCD'
-drone.position_set(6.5, 0, 0, yaw=1.0472, relative=True)
+drone.position_set(6.5, 0, 0, relative=True)
 
 print ' 2. moving to Point C of square ABCD'
 drone.position_set(0, 6.5, 0, relative=True)
